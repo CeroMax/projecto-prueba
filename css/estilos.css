@@ -1,0 +1,152 @@
+
+
+main h1{
+   text-align: center;
+}
+body header img{
+   margin: 10px;
+}
+.imagen{
+   padding: 5px;
+   width: 500px;
+   height: 350px;
+}
+.bordeImagen{
+   border: 2px solid black;
+   margin: 0px;
+   padding: 0px;
+}
+ footer p {
+    color: aqua;
+}
+.nosotros{
+   background-color:rgb(145, 233, 233);
+   margin: 15px;
+   padding: 20px 70px 70px 70px;
+   border: 1px solid black;
+}
+.nosotros h2{
+   width: 850px;
+   height: 300px;
+   color: blue;
+   background-color: beige;
+   overflow: auto; 
+}
+.navegacion{
+   background-color: rgb(79, 112, 219);
+}
+.navegacion ul li a{
+   color: black;
+}
+.menu li{
+   display: inline-block;
+   position: relative;
+   font-size: 20px;
+   padding: 0 10px;
+}
+.menu li a{
+   text-decoration: none;
+   
+}
+.submenu{
+   display: none;
+   position: absolute;
+}
+.submenu li{
+   display: block;
+   background-color: bisque;
+}
+.menu li:hover ul{
+   display: block;
+}
+body header h1{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Times New Roman';
+   background-color: cornflowerblue;
+}
+.publicidad{
+   position: fixed;
+   top: 200px;
+   right: 100px;
+   width: 150px;
+   height: 150px;
+   background-color: burlywood;
+   border: 1px solid black;
+}
+.encabezadoPagina{
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Times New Roman';
+   background-color: cornflowerblue;
+}
+.tamañoImagen2{
+   width: 300px;
+   height: 150px;
+}
+.tamañoImagen3{
+   width: auto;
+   height: auto;
+}
+.flexboxImagenes{
+   background-color: aquamarine;
+   padding: 5px;
+   margin: 5px 0px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items:flex-end;
+}
+.centrarTexto{
+   text-align: center;
+}
+.centrar{
+   justify-content: space-around;
+}
+.flexboxImagenesDiv{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contenedor{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 0.5fr;
+   background-color: aqua;  
+}
+.contenedor ul p{
+   color: black;
+}
+.contenedor ul li a{
+   color: black;   
+}
+footer ul{
+   margin: 0px;
+   padding: 0px;
+}
+.contenedorHijo{
+   align-self: center;
+}
+.flexboxContactos{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+@media screen and (max-width: 500px) {
+   .menu li{
+      display: flex;
+      flex-direction: column;
+   }
+   .tamañoImagen2{
+      width: 240px;
+      height: 125px;
+   }
+   .flexboxImagenes{
+      background-color:white;
+   }
+   body header h1{
+      font-size: 40px;
+   }
+}
